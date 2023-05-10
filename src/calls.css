@@ -1,0 +1,99 @@
+*{
+  margin: 0px;
+  padding: : 0px;
+}
+.nav{
+  width: 100vw;
+  height: 9vh;
+  font-size: 4vh;
+  color: white;
+  background-color: #6200ee;
+  display: flex;
+  align-items: center;
+}
+.navName{
+  position: relative;
+  left: 2.5vh;
+}
+.backArrow{
+  width: 4.5vh;
+  height: 4.5vh;
+  background-color: #6200ee;
+  border-radius: 6vh;
+  position: relative;
+  left: 1.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bA1{
+  border-bottom: 0.3vh solid white;
+  border-left: 0.3vh solid white;
+  transform: rotate(45deg);
+  width: 1.5vh;
+  height: 1.5vh;
+  position: relative;
+  left: 0.8vh;
+}
+.bA2{
+  border: 0.2vh solid white;
+  width: 2.1vh;
+  position: relative;
+  left: -1vh;
+}
+#uVideo{
+  width: 36vw;
+  height: 25vh;
+  position: absolute;
+  bottom: 21vh;
+  right: 0px;
+  z-index: 1;
+  border: 2px solid black;
+  background: black;
+}
+#fVideo{
+  position: absolute;
+  width: 100vw;
+  height: 70vh;
+  left: 0px;
+  border: 2px solid black;
+}
+.con{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: white;
+}
+.vContainer{
+  width: 100vw;
+  height: 70vh;
+}
+.call-s{
+ width: 100vw;
+ height: 12vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.c-e-c{
+  width: 7vh;
+  height: 7vh;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7vh;
+  background: red;
+}
+.c-e-c2{
+  width: 7vh;
+  height: 7vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7vh;
+  background: black;
+  color: white;
+  font-size: 4vh;
+}
