@@ -13,18 +13,10 @@ async function init(){
  
  navigator.getUserMedia({
   video: true,
-  audio: false
- }, (stream) => {
-  document.querySelector("#uVideo").srcObject = stream
- }, (err) => {
-  console.log(err)
- })
- 
- navigator.getUserMedia({
-  video: true,
   audio: true
  }, (stream) => {
   window.uStream = stream
+  document.querySelector("#uVideo").srcObject = stream
  }, (err) => {
   console.log(err)
  })
