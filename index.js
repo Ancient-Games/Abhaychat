@@ -11,7 +11,7 @@ const path = require("path")
 app.use(cors())
 app.use(express.static(__dirname+"/src"))
 app.set("view engine", "ejs")
-app.set("views", __dirname+"/src")
+app.set("views", __dirname+"/Views")
 const server = http.createServer(app)
 
 const io = new Server(server, {
