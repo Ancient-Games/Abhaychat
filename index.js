@@ -58,10 +58,6 @@ io.on("connection", (socket) => {
  })
 })
 
-app.get("/", (req, res) => {
- res.send("Sorry no id found.")
-})
-
 app.get("/:id", (req, res) => {
  const id = req.params.id
  userId = id
